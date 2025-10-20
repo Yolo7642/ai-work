@@ -113,8 +113,6 @@ class Game:
             if self.current_target.check_ending():
                 break
 
+game = Game()
+game.start()
 
-
-if __name__ == "__main__":
-    game = Game()
-    game.start()
